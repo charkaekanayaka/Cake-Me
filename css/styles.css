@@ -1,0 +1,204 @@
+body{
+  font-family: Montserrat;
+}
+
+#title {
+  background-color:#f8eeee
+
+}
+
+.container-fluid{
+  padding: 2% 15%;
+}
+
+.btn{
+margin-top: 10%;
+border-radius: 12px;
+background-color: #ffe3ed;
+border-color:#ffe6e6;
+border-style:hidden ;
+font-weight: 500;
+}
+
+.navbar{
+  border-radius: 12px;
+  margin-bottom: 4rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav-item{
+  padding: 0 24px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h1{
+  padding-top: 10%;
+  font-family:"Montserrat";
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family:"Montserrat";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.;
+}
+
+h3{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+h4{
+  padding-top: 2%;
+  font-family:"Montserrat";
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p{
+  color:#8f8f8f;
+  font-weight: 500;
+}
+ .top-image{
+   width: 70%;
+   transform: rotate(350deg);
+   padding-left: 20%;
+
+ }
+
+/*Features section*/
+
+#features{
+  padding: 5% 15%;
+}
+
+.feature-box{
+text-align: center;
+padding: 2%
+}
+
+.icon {
+  color: #fdcfdf;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#e05297;
+}
+
+/*Testimonial section*/
+
+#testimonials{
+
+  text-align: center;
+  background-color:#f8eeee;
+
+}
+
+.testimonial-image{
+  margin-top: 20px;
+  width: 12%;
+  border-radius: 120%
+}
+
+#press{
+
+  background-color:#f8eeee;
+  text-align: center;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 10px 20px 80px;
+
+}
+
+/*, .carousel-indicators */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(150%);
+}
+.carousel-item{
+  padding:5% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+
+.pricing-col{
+  padding: 3% 2%;
+
+}
+
+.card-header{
+  background-color:#ffe3ed;
+
+}
+
+.btn{
+background-color: #ffe3ed;
+border-width: 600px;
+border: 3px solid #f6f6f6;
+}
+
+
+
+@media(max-width:1070px){
+
+  .top-image{
+    position:static;
+    transform: rotate(0);
+    padding:2%;
+
+  }
+
+ #title{
+   text-align: center;
+ }
+
+
+}
+
+/* Footer Section */
+
+#footer {
+
+  background-color: #f8eeee;
+  text-align: center;
+
+}
+.footer-icon {
+  padding: 80px 10px;
+}
+
+#cta{
+  text-align: center;
+  padding: 3%;
+  background-color:#f8eeee;
+
+}
+
+.Easy{
+  padding:20px 10px;
+}
+.fa-instagram{
+  padding-right: 1.5%;
+}
+.fa-facebook{
+padding-right: 1.5%;
+}
